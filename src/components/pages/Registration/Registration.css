@@ -1,0 +1,92 @@
+/* Registration.css */
+
+.registration-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: rgba(255, 255, 255, 0.474);
+  border-radius: 10px;
+  box-shadow: 0 0 20px #575757;
+  padding: 20px; /* Changed from padding-top */
+}
+
+.register{
+  padding-left:50px ;
+}
+
+.registration {
+  width: 300px;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 15px; 
+  background-color: #fff; 
+  padding-left: 10px;
+  
+}
+
+.registration h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.registration-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-container {
+  position: relative;
+  margin-bottom: 15px; 
+  /* margin-left: 25px; Removed */
+}
+
+.input-container img {
+  position: absolute;
+  top: 50%;
+  left: 35px;
+  transform: translateY(-50%);
+  width: 20px; 
+  height: auto;
+}
+
+input[type='email'],
+input[type='text'],
+input[type='password'],
+button {
+  padding: 10px;
+  padding-left: 35px; 
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 16px; 
+  width: calc(100% - 45px); /* Adjusted width to accommodate the left padding */
+  margin-left: 25px; /* Added margin-left to align with the icon */
+}
+
+button {
+  background-color: #787878;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-left: 50px;
+}
+
+button:hover {
+  background-color: #646464; 
+}
+
+p {
+  text-align: center;
+  margin-top: 10px;
+}
+
+p a {
+  color: #6f6f6f;
+  text-decoration: none;
+}
+
+p a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,65 @@
+/* Questions.css */
+
+.Questions-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  background-color: rgba(255, 255, 255, 0.474);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px #575757;
+  transition: all 0.3s ease-in-out;
+  padding-top: 100px;
+}
+
+.Quest {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-bottom: 5%;
+}
+
+.question-box {
+  width: 25%;
+  padding: 20px;
+  margin: 10px 0;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.question-box h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.question-box p {
+  margin-bottom: 5px;
+}
+
+.question-box button {
+  padding: 10px 20px;
+  background-color: #787879;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding-left: 10px;
+  margin-left: 20px;
+}
+
+.question-box button:hover {
+  background-color: #646464;
+}
+
+h4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 20px;
+  font-size: 24px;
+  color: #333;
+}

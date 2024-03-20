@@ -1,0 +1,59 @@
+/* Orders.css */
+.orders-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  background-color: rgba(255, 255, 255, 0.474);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px #575757;
+  transition: all 0.3s ease-in-out;
+  padding-top: 100px;
+}
+
+.orders-header {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.books-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+}
+
+.book {
+  width: 30%; 
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
+}
+
+.book h3 {
+  margin-bottom: 5px;
+}
+
+.book p {
+  margin-bottom: 10px;
+}
+
+.book button {
+  align-self: flex-end;
+  background-color: #787878;
+  color: #fff;
+  border: none;
+  padding: 5px 5px;
+  cursor: pointer;
+  margin-right: 15px;
+  padding-left: 10px;
+}
+
+.book button:hover {
+  background-color: #363636;
+}

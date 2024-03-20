@@ -1,0 +1,61 @@
+/* Header.css */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000000;
+  color: #ffffff;
+  padding: 10px 20px;
+}
+
+.logo-container {
+  flex: 1;
+}
+
+.app-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.links-container {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+}
+
+.header-link {
+  text-decoration: none;
+  color: #ffffff; /* Set font color to white */
+  margin: 0 15px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.header-link:hover {
+  background-color: #555;
+}
+
+.icons-container {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.icon-link {
+  margin-left: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.login-icon,
+.cart-icon {
+  font-size: 1.5rem;
+  transition: color 0.3s ease;
+}
+
+.login-icon:hover,
+.cart-icon:hover {
+  color: #ccc;
+}
